@@ -1,7 +1,5 @@
-/* jslint global node */
-
-var express = require('express');
-var app = express();
+  var express = require('express');
+    var app = express();
     
     app.set('port', (process.argv[2] || 3000));
     app.set('view engine', 'jsx');
@@ -12,8 +10,11 @@ var app = express();
         ignore: false
     });
     
+    // write below
+    var data = [];
+    
     app.use('/', function(req, res) {
-      res.render('index', '');
+      res.render('index', {data: data});
     });
     
     app.listen(app.get('port'), function() {});
