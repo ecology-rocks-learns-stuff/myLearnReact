@@ -1,5 +1,6 @@
 import React from 'react';
 
+//TodoBox
 export default class TodoBox extends React.Component {
     render() {
         return (
@@ -12,6 +13,7 @@ export default class TodoBox extends React.Component {
     }
 }
 
+//TodoList
  class TodoList extends React.Component {
         render() {
             return (
@@ -28,6 +30,7 @@ export default class TodoBox extends React.Component {
         }
     }
 
+//Todo
 class Todo extends React.Component {
         constructor(props) {
             super(props);
@@ -55,6 +58,7 @@ class Todo extends React.Component {
     };
 
 
+//TodoForm
 class TodoForm extends React.Component {
   // Write code here
     render() {
