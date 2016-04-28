@@ -1,3 +1,4 @@
+//This file is currently nonfunctional.
 var React = require('react');
     var ReactDOMServer = require('react-dom/server');
     var DOM = React.DOM;
